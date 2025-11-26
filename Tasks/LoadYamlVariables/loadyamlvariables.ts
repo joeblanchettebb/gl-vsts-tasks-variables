@@ -1,6 +1,6 @@
 import fs = require("fs-extra");
 import tl = require("azure-pipelines-task-lib");
-import { recursiveProcessing } from "../../Common/Node/expandJObject";
+import { recursiveProcessing } from "./common/expandJObject";
 import jsYaml = require("js-yaml");
 
 try {
