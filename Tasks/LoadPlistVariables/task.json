@@ -18,7 +18,7 @@
     "demands": [
         "npm"
     ],
-    "minimumAgentVersion": "2.144.0",
+    "minimumAgentVersion": "1.91.0",
     "instanceNameFormat": "Load variables from $(PlistSource) with prefix : $(VariablePrefix)",
     "inputs": [
         {
@@ -49,10 +49,6 @@
     "execution": {
         "Node10": {
             "target": "loadplistvariables.js",
-            "argumentFormat": ""
-        },
-        "Node20_1": {
-            "target": "main.js",
             "argumentFormat": ""
         }
     }
